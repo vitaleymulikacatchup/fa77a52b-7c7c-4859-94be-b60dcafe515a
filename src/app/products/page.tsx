@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
 import Link from "next/link";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
-import MetricCardTwo from '@/components/sections/metric/MetricCardTwo';
+import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
 import { Star, TrendingUp, Handshake, Facebook, Twitter, Instagram } from "lucide-react";

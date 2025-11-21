@@ -1,9 +1,8 @@
-"use client"
+"use client";
 
 import Link from "next/link";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
-import TagAbout from '@/components/sections/about/TagAbout';
 import TeamCardOne from '@/components/sections/team/TeamCardOne';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
@@ -38,13 +37,6 @@ export default function AboutPage() {
             text: "Shop Now",
             href: "/products"
           }}
-        />
-      </div>
-
-      <div id="about" data-section="about">
-        <TagAbout
-          tag="Our Story"
-          description="At BVB Fan Shop, we embody the passion and dedication of the Yellow Wall. Since 1909, Borussia Dortmund has been more than just a football club – it's a way of life, a community, and a symbol of unwavering loyalty that connects fans worldwide."
         />
       </div>
 
@@ -93,8 +85,7 @@ export default function AboutPage() {
               company: "Dortmund",
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763736649722-fh1r3iou.jpg",
-              imageAlt: "Michael Weber BVB fan",
-              text: "Amazing quality and authentic merchandise. The jersey feels premium and the service was excellent."
+              imageAlt: "Michael Weber BVB fan"
             },
             {
               id: "2",
@@ -103,8 +94,7 @@ export default function AboutPage() {
               company: "Berlin",
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763736650582-d6sa4ddv.jpg",
-              imageAlt: "Anna Schmidt BVB fan",
-              text: "Fast shipping and perfect packaging. Got my scarf just in time for the match!"
+              imageAlt: "Anna Schmidt BVB fan"
             },
             {
               id: "3",
@@ -113,8 +103,7 @@ export default function AboutPage() {
               company: "Munich",
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763736651534-m6mux8o5.jpg",
-              imageAlt: "Thomas Mueller BVB fan",
-              text: "Official quality products that show true Echte Liebe. Highly recommended for all BVB fans."
+              imageAlt: "Thomas Mueller BVB fan"
             },
             {
               id: "4",
@@ -123,8 +112,7 @@ export default function AboutPage() {
               company: "Hamburg",
               rating: 5,
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763736652581-qboyrlq2.jpg",
-              imageAlt: "Lisa Hoffmann BVB fan",
-              text: "Great customer service and authentic BVB merchandise. Will definitely order again!"
+              imageAlt: "Lisa Hoffmann BVB fan"
             }
           ]}
         />

@@ -1,9 +1,10 @@
-"use client"
+"use client";
 
 import Link from "next/link";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
+import TagAbout from '@/components/sections/about/TagAbout';
 import FeatureCardSeven from '@/components/sections/feature/FeatureCardSeven';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
@@ -58,6 +59,13 @@ export default function HomePage() {
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763736643053-yj8evked.jpg"
           imageAlt="BVB stadium and fans in yellow and black"
           imagePosition="right"
+        />
+      </div>
+
+      <div id="about" data-section="about">
+        <TagAbout
+          tag="Our Story"
+          description="At BVB Fan Shop, we embody the passion and dedication of the Yellow Wall. Since 1909, Borussia Dortmund has been more than just a football club – it's a way of life, a community, and a symbol of unwavering loyalty that connects fans worldwide."
         />
       </div>
 
