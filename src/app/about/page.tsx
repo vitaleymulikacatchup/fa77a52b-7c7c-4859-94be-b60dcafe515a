@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import TeamCardOne from '@/components/sections/team/TeamCardOne';
@@ -187,7 +186,7 @@ export default function AboutPage() {
 
       <div id="footer" data-section="footer">
         <FooterSocial
-          brandName="BVB Fan Shop"
+          logoText="BVB Fan Shop"
           copyrightText="© 2024 BVB Fan Shop. Echte Liebe."
           columns={[
             {
