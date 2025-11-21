@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
@@ -78,14 +79,14 @@ export default function HomePage() {
           animationType="slide-up"
           features={[
             {
-              id: "1",
+              id: 1,
               title: "Authentic Merchandise",
               description: "Official BVB products directly from the club, ensuring quality and authenticity for true supporters",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763736645260-dnzeal9h.jpg",
               imageAlt: "Official BVB jersey"
             },
             {
-              id: "2",
+              id: 2,
               title: "Fast Worldwide Shipping",
               description: "Get your BVB gear delivered quickly anywhere in the world with our reliable shipping partners",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763736646458-fjsa31v6.jpg",
